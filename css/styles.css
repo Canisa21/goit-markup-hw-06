@@ -340,7 +340,7 @@ body {
 
  .form-icon-wrapper input:focus {
      outline: none;
-     border: 1px solid --active-color;
+     border: 1px solid var(--active-color);
  }
 .form-icon-wrapper:hover,
 .form-icon:hover {
