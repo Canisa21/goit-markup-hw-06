@@ -66,6 +66,44 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+
+<p class="form-heading">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+    <label for="user_name" class="label-text-style">Name</label>
+      <div class="form-icon-wrapper">
+        <span class="form-icon"><svg class="icon-color" width="18px" height="24px"> <use href="./images/icons.svg#icon-person-black-18dp-1"> </use> </svg></span>
+      <input class="input-style" type="text" name="user_name" id="user_name" required/>
+      </div>
+   
+
+    <label for="phone_number" class="label-text-style">Phone</label>
+      <div class="form-icon-wrapper">
+      <span class="form-icon"><svg width="18px" height="24px"> <use href="./images/icons.svg#icon-phone-black-18dp-1"> </use> </svg></span>
+      <input class="input-style" type="tel" name="phone_number" id="phone_number" required/>
+      </div>
+    
+
+    <label for="email_adress" class="label-text-style">Email</label>
+     <div class="form-icon-wrapper">
+      <span class="form-icon"><svg width="18px" height="24px"> <use href="./images/icons.svg#icon-email-black-18dp-1"> </use> </svg></span>
+      <input class="input-style" type="email" name="email_adress" id="email_adress" required/>
+    </div> 
+
+    <label for="user_comment" class="label-text-style">Comment</label>  
+      <textarea class="textarea-style" name="user_comment" id="user_comment" placeholder="Text input"></textarea>
+    
+
+<div class="checkbox-wrapper">
+<input class="checkbox-input" type="checkbox" name="terms-accept" id="terms-accept" required/>
+
+<label for="terms-accept" class="label-text-style">I accept the terms and conditions of the <a href="#" class="link-form">Privacy Policy</a></label>
+</div>
+    
+  
+
+  <button class="form-button" type="submit">Send</button>
+
+</form>
       </div>
     </div>
       </section>
@@ -308,7 +346,23 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             <li ><div class="footer-sm-wrapper"><a href="#"><svg class="sm-icon" width="40px" height="40px"> <use href="./images/icons.svg#icon-linkedin-1-1"> </use> </svg></a></div></li>
           </ul>
         </div>
+        <div class="footer-form-wrapper">
+        <form>
+          
+        <label class="subscribe-text" for="subscribe">Subscribe</label>
+        <div class="sub-wrap">
+      <input class="input-style-ft" type="email" name="subscribe" id="Subscribe" placeholder="E-mail" required />
+      <div class="button-wrap">
+      <button class="subscribe-button" type="submit">Subscribe</button>
+      <span class="subscribe-icon"><svg width="24px" height="24px"> <use href="./images/icons.svg#icon-Frame-3"> </use> </svg></span>
       </div>
+      </div>
+    </div>
+     </form> 
+     </div>
+       
+      </div>
+      
     </footer>
      <script src="./js/modal.js"></script>
   </body>
