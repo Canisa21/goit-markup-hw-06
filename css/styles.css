@@ -359,7 +359,7 @@ body {
     height: 16px;
     margin-right: 8px;
 }
-/*svg checkbox*/
+/*svg checkbox start*/
 .checkbox-input {
     width: 16px;
     height: 16px;
@@ -390,7 +390,7 @@ body {
 .checkbox-input:checked + .icon {
     opacity: 1;
 }
-/*checkbox svg*/
+/*checkbox svg end*/
 
 .form-button {
     background-color: rgba(77, 90, 229, 1);
