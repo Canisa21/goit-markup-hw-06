@@ -306,7 +306,7 @@ body {
 
 .textarea-style {
     min-height: 120px;
-    color: rgba(142, 143, 153, 1);
+    color: rgba(46, 47, 66, 1);
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
@@ -323,15 +323,16 @@ body {
 
  .form-icon {
      position: absolute;
-     top: 50%;
-     left: 8px;
+     top: 55%;
+     left: 16px;
      translate: 0 -50% 0;
+    
  }
 
  .form-icon-wrapper input {
      width: 100%;
      padding-block: 8px;
-     padding-inline-start: 32px;
+     padding-inline-start: 32px ;
  }
 
  .form-icon-wrapper:focus-within .form-icon {
@@ -342,10 +343,14 @@ body {
      outline: none;
      border: 1px solid var(--active-color);
  }
+
+
 .form-icon-wrapper:hover,
 .form-icon:hover {
     fill: var(--active-color);
 }
+
+
 .checkbox-wrapper {
     margin-top: 16px;
     margin-bottom: 24px;
@@ -354,29 +359,30 @@ body {
         justify-content: center;
         align-items: center;
 }
-.checkbox-input {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-}
+
+
 /*svg checkbox start*/
 .checkbox-input {
+
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     appearance: none;
     padding: 0;
     opacity: 0;
+
 }
 
 .svg-check {
-    position: relative;
     cursor: pointer;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.40);
     border-radius: 4px;
     margin-right: 8px;
+    position: relative;
 }
+
 
 .icon {
     opacity: 0;
@@ -385,11 +391,14 @@ body {
     width: 16px;
     height: 16px;
     position: absolute;
+
 }
 
-.checkbox-input:checked + .icon {
+.checkbox-input:checked +.icon {
     opacity: 1;
 }
+
+
 /*checkbox svg end*/
 
 .form-button {
@@ -838,11 +847,16 @@ padding: 40px 32px 164px;
     min-width: 264px;
     padding-left: 16px;
     color:rgba(255, 255, 255, 1) ;
+transition-property: border ;
+        transition-duration: 250ms ;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-style-ft::placeholder {
     color: rgba(255, 255, 255, 1);
 }
-
+.input-style-ft:hover, .input-style-ft:focus {
+    border: 1px solid var(--active-color);
+}
 .subscribe-button {
     position: relative;
         /* Button Text */
